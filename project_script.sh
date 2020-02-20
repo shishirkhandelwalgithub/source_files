@@ -9,5 +9,8 @@ echo "enter replacement string"
 read var2
 sed -i -e "s/DEVOPS/$var2/g" $var1
 cd project1
+git add .
+git commit -m ' commit the changes into repo'
+git push -u origin master
 echo "Script terminating..."
 
