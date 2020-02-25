@@ -19,3 +19,5 @@ cd project1
 git add .
 git commit -m 'with only link'
 git push -u origin master
+cd ../..
+rm -rf solution123
