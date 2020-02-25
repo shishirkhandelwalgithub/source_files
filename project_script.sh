@@ -17,6 +17,6 @@ git add .
 git commit -m 'new_commit_hope1'
 git push -u origin master
 echo "Script terminating..."
-
+echo "Finish"
 
 
