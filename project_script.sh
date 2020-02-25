@@ -6,8 +6,6 @@ echo "Link?"
 read link
 echo "Token?"
 read token
-# v1=${link:0:8}
-# v2=${link:8:${#link}-8}
 v1=$(awk -F'github' '{print $1}' <<< $link)
 v2=$(awk -F'//' '{print $2}' <<< $link)
 v3=:x-oauth-basic@
