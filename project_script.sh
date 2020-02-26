@@ -19,7 +19,7 @@ repo=$(awk -F/ '{print $NF}' <<< $link)
 repo_name=$(awk -F. '{print $1}' <<< $repo)
 cd $repo_name
 git add .
-git commit -m 'with only link'
+git commit -m 'DEVOPS replaced with new string - commit'
 git push -u origin master
 cd ../..
 rm -rf solution123
